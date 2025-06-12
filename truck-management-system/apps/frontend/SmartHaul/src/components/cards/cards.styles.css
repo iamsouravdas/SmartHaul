@@ -1,0 +1,18 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    margin-left: 5%;
+    width: 260px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border: 0px !important;
+    cursor: pointer;
+}
+
+.card:first-child{
+    margin-left: 0;
+}
+
+.card .count{
+ color: #2bb92b;
+}
